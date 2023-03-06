@@ -1,0 +1,214 @@
+body {
+    background-color: rgb(41, 41, 41);
+    font-family: 'Poppins';
+}
+
+/* Navigation bar */
+
+.Motherdiv {
+    display: grid;
+    grid-template-columns: 1fr  1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: black;
+    height: 80px;
+}
+
+.button {
+    display: block;
+    text-align: center;
+    padding: 26px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s;
+    margin-bottom: 10px;
+}
+
+#id {
+    color: white;
+}
+
+#id:hover {
+    color: rgb(255, 0, 0);
+    font-size: 16px;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    border-radius: 12px;
+    margin: 8px;
+    padding: 30px;
+    transition: 0.3s;
+}
+
+a:hover {
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+}
+
+/* Apk section */
+
+.Apklinks {
+    display: none;
+}
+
+.Apklinks a {
+    background-color: rgb(111, 82, 255);
+}
+
+.Apklinks a:hover {
+    background-color: #fff;
+    color: rgb(111,86,236);
+}
+
+.Apkdiv:hover .Apklinks {
+    display: grid;
+    z-index: 1;
+}
+
+/* PDF section */
+
+.Pdflinks {
+    display: none;
+}
+
+.Pdflinks a {
+    background-color: rgb(246,98,19);
+}
+
+.Pdflinks a:hover {
+    background-color: #fff;
+    color: rgb(246,98,19);
+}
+
+.Pdfdiv:hover .Pdflinks {
+    display: grid;
+    z-index: 1;
+}
+
+/* Editing section */
+
+.Editinglinks {
+    display: none;
+    width: 500px;
+}
+
+.Editinglinks a {
+    background-color: rgb(214,28,78);
+}
+
+.Editinglinks a:hover {
+    background-color: #fff;
+    color: rgb(214,28,78);
+}
+
+.Editingdiv:hover .Editinglinks {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    z-index: 1;
+}
+
+/* AI section */
+
+.Ailinks {
+    display: none;
+    width: 500px;
+}
+
+.Ailinks a {
+    background-color: rgb(28,103,202);
+}
+
+.Ailinks a:hover {
+    background-color: #fff;
+    color: rgb(28,103,202);
+}
+
+.Aidiv:hover .Ailinks {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    z-index: 1;
+}
+
+/* Movies section */
+
+.Movieslinks {
+    display: none;
+    width: 500px;
+}
+
+.Movieslinks a {
+    background-color: #007784;
+}
+
+.Movieslinks a:hover {
+    background-color: #fff;
+    color: #007784;
+}
+
+.Moviesdiv:hover .Movieslinks {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    z-index: 1;
+}
+
+/* Eduction section */
+
+.education-links {
+    display: none;
+}
+
+.education-links a {
+    background-color: #e9af00
+}
+
+.education-links a:hover {
+    background-color: #fff;
+    color: #cb9f00;
+}
+
+.education-div:hover .education-links {
+    display: grid;
+    z-index: 1;
+}
+
+/* Gadjets section */
+
+.gadjets-links {
+    display: none;
+}
+
+.gadjets-links a {
+    background-color: #228501;
+}
+
+.gadjets-links a:hover {
+    background-color: #fff;
+    color: #228501;
+}
+
+.gadjets-div:hover .gadjets-links{
+    display: grid;
+    z-index: 1;
+}
+
+.health-links {
+    display: none;
+}
+
+.health-links a {
+    background-color: #B99B6B;
+}
+
+.health-links a:hover {
+    background-color: white;
+    color: #B99B6B;
+}
+
+.health-div:hover .health-links {
+    display: grid;
+    z-index: 1;
+}
